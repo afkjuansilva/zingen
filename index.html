@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <title>Document</title>   
+    <title>Zigen</title>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">    
 </head>
 <body>
-    
+    <div class="flex gap-1">
+        <a href="#" class="btn btn-sm">Label</a>
+        <a href="#" class="btn btn-md">Label</a>
+        <button class="btn btn-lg">Label</button>
+    </div>
+    <div class="flex gap-1">
+        <a aria-label="Label" href="#" class="btn btn-sm"></a>
+        <a aria-label="Label" href="#" class="btn btn-md"></a>
+        <button aria-label="Label" class="btn btn-lg"></button>
+    </div>
 </body>
 </html>
